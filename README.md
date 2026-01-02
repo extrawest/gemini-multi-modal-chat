@@ -45,19 +45,18 @@ lib/
         └── ui/                # UI Layer
             ├── chat_screen.dart
             └── widgets/       # Reusable widgets (Bubbles, Input)
-            
----
+```            
 
 ## 🚀 Getting Started
 
 Follow these steps to set up and run the project locally.
 
 1️⃣ Clone the repository  
-git clone https://github.com/YOUR-USERNAME/gemini-chat.git  
-cd gemini-chat  
+`git clone https://github.com/YOUR-USERNAME/gemini-chat.git`  
+`cd gemini-chat`  
 
 2️⃣ Install dependencies  
-flutter pub get  
+`flutter pub get`  
 
 3️⃣ Setup Environment Variables  
 
@@ -65,17 +64,15 @@ For security reasons, the API key is not included in the source code.
 
 Create a file named `.env` in the root directory of the project and add your Gemini API key:
 
-GEMINI_API_KEY=AIzaSy...YourKeyHere  
+`GEMINI_API_KEY=AIzaSy...YourKeyHere`  
 
 4️⃣ Run the App  
 
 Android Emulator / iOS Simulator (debug mode with hot reload):  
-flutter run  
+`flutter run`  
 
 Physical iOS Device:  
-flutter run --release  
-
----
+`flutter run --release`  
 
 ## 📦 Assets & Build
 
@@ -87,8 +84,6 @@ The project includes:
 Regenerate assets:  
 flutter pub run flutter_launcher_icons  
 flutter pub run flutter_native_splash:create  
-
----
 
 ## 📄 License
 
