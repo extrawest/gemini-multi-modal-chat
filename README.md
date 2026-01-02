@@ -2,7 +2,9 @@
 
 A modern, clean-architecture Flutter application that integrates Google's **Gemini 1.5 Flash** model. The app supports **multimodal interaction**, allowing users to send both text prompts and images for AI analysis.
 
-[gemini_chat_mobile_app.mp4](..%2F..%2F..%2F..%2FDownloads%2Fgemini_chat_mobile_app.mp4)
+
+https://github.com/user-attachments/assets/3ea572ce-f83d-49f8-82bb-ee2fdeaefd11
+
 
 ## ✨ Key Features
 
