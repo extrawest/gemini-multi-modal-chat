@@ -1,0 +1,53 @@
+name: gemini_chat
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_gemini: ^3.0.0
+  image_picker: ^1.2.1
+  provider: ^6.1.5+1
+  uuid: ^4.5.2
+  flutter_dotenv: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/icons/
+    - assets/images/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+
+  image_path_ios: "assets/icons/app_icon.png"
+  image_path_android: "assets/icons/app_icon_android.png"
+
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/icons/app_icon_android.png"
+
+flutter_native_splash:
+  color: "#000000"
+  image: "assets/images/splash_image.png"
+  android_12:
+    image: "assets/images/splash_image.png"
+    color: "#000000"
+  ios: true
+  android: true
